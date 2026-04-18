@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đặt lịch sân thể thao</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sân Thể Thao SV</h1>
+    <nav>
+      <button data-sport="all" class="active">Tất cả</button>
+      <button data-sport="bong-da">Bóng đá</button>
+      <button data-sport="cau-long">Cầu lông</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="court-list">
+      <!-- Card sân sẽ render bằng JS ngày 2, hôm nay để cứng -->
+      <article class="court-card">
+        <img src="https://via.placeholder.com/300x180?text=San+1" alt="Sân bóng đá A">
+        <div class="info">
+          <h2>Sân bóng đá A</h2>
+          <p>Môn: Bóng đá 5 người</p>
+          <p>Giá: 200k/giờ</p>
+          <a href="detail.html?id=1" class="btn">Xem lịch</a>
+        </div>
+      </article>
+
+      <article class="court-card">
+        <img src="https://via.placeholder.com/300x180?text=San+2" alt="Sân cầu lông 1">
+        <div class="info">
+          <h2>Sân cầu lông 1</h2>
+          <p>Môn: Cầu lông</p>
+          <p>Giá: 80k/giờ</p>
+          <a href="detail.html?id=2" class="btn">Xem lịch</a>
+        </div>
+      </article>
+
+      <article class="court-card">
+        <img src="https://via.placeholder.com/300x180?text=San+3" alt="Sân bóng đá B">
+        <div class="info">
+          <h2>Sân bóng đá B</h2>
+          <p>Môn: Bóng đá 7 người</p>
+          <p>Giá: 300k/giờ</p>
+          <a href="detail.html?id=3" class="btn">Xem lịch</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Bài tập lớn Công nghệ Web - Nhóm đặt sân</p>
+  </footer>
+</body>
+</html>

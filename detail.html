@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết sân</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="back">← Quay lại</a>
+    <h1 id="court-name">Sân bóng đá A</h1>
+  </header>
+
+  <main>
+    <section class="booking-panel">
+      <label for="date">Chọn ngày:</label>
+      <input type="date" id="date">
+
+      <h2>Lịch trống hôm nay</h2>
+      <div class="time-grid">
+        <!-- 8h đến 22h -->
+        <button class="slot free">08:00</button>
+        <button class="slot free">09:00</button>
+        <button class="slot booked" disabled>10:00</button>
+        <button class="slot free">11:00</button>
+        <button class="slot free">13:00</button>
+        <button class="slot free">14:00</button>
+        <button class="slot booked" disabled>15:00</button>
+        <button class="slot free">16:00</button>
+        <button class="slot free">17:00</button>
+        <button class="slot free">18:00</button>
+        <button class="slot free">19:00</button>
+        <button class="slot free">20:00</button>
+        <button class="slot free">21:00</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
