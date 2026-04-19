@@ -2,7 +2,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: system-ui, sans-serif; line-height: 1.5; background: #f6f7fb; color: #222; }
 
-header { background: #0d6efd; color: white; padding: 1rem; }
+header { background: #198754; color: white; padding: 1rem; }
 header h1 { margin-bottom: 0.5rem; }
 nav { display: flex; gap: 0.5rem; }
 nav button { padding: 0.4rem 0.8rem; border: none; border-radius: 6px; background: white; color: #0d6efd; cursor: pointer; }
